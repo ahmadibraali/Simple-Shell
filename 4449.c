@@ -1,3 +1,9 @@
+//###################################################
+//############ Simple Shell #########################
+//      ##             Developed By : Ahmed Ibrahim Ali            ##
+//      ##                      ID : 4449                         ##
+//      ## Github : https://github.com/Ahmedibr2020/Simple-Shell ##
+
 #include <unistd.h>
 #include <stdio.h>
 #include <string.h>
@@ -91,13 +97,13 @@ void execute(char **arg)//function that execute the command and handle the procc
 		}
 	       else
 		{
-			if(background==0)//check if forground (background=0)then wait,otherwise if background (background=1) don't wait
+			if(background==0)//check if foreground (background=0)then wait,otherwise if background (background=1) don't wait
 			{
 				wait(NULL);
 			}
 		}
 	}
-	else //else (fork failed) print error msg
+	else
 	{   printf("fork is failed\n");	}
 }
 //################################//
@@ -135,4 +141,3 @@ int main()
 	}
 	return 0;
 }
-
