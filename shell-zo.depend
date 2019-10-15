@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1571091357 source:/home/zooka/Desktop/Projects/shell-zo/main.c
+	<unistd.h>
+	<stdio.h>
+	<string.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<stdlib.h>
+	<time.h>
+

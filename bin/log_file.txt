@@ -1,0 +1,5 @@
+the child is terminated	|	Tue Oct 15 02:46:31 2019
+the child is terminated	|	Tue Oct 15 04:02:40 2019
+the child is terminated	|	Tue Oct 15 04:04:32 2019
+the child is terminated	|	Tue Oct 15 04:02:40 2019
+the child is terminated	|	Tue Oct 15 04:29:37 2019
